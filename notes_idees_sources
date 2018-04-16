@@ -1,0 +1,69 @@
+******
+Notes 
+******
+
+pour modifier le repo GitHub a distance : dans le terminal
+----------------------------------------
+	1) on définit la cd - ex: cd ~/Documents/ENSAE/3A
+
+	2) on clone le repo en local : git clone <url du repo GitHub, cf. clone or download button>
+
+	3) on actualise le cd avec le nom du repo : cd ~/<reponame>
+
+
+	4) modifs 
+
+		a) pour des changements via la ligne de commande : 
+		    - renommer : git mv <old name> <new name>
+		    		 git commit -m "<message>" 
+				 git push origin master
+
+		    - supprimer : git rm <filename>
+  		    		  git commit -m "<message>" 
+				  git push origin master
+
+		b) pour des changements sur le dossier local 
+		    - changements : exemple ajouter un fichier, supprimer, renommer, modifications a l'intérieur d'un fichier ...
+		    - on ajoute ces modifs à la liste des commit potentiels : git add <fichiers concernés>
+		    - on commit et push comme précédemment 
+
+
+******
+Sujet 
+******
+
+- le sujet : EUROVISION 
+========================
+
+  - histoire/idées : 
+  ------------------
+  
+    - bloc sur qui gagne à l'eurovision ? :
+	- homme Vs femme 
+	- groupes Vs solo 
+	- langues : prévalence de la langue anglaise ? -> visu sur la répartition des gagnants par langue 
+    - pays qui gagnent le plus, mise en relation avec des variables macros ? 
+    - focus sur la France 
+    - les mots qui reviennent le plus dans les paroles, le nb de mots différents, etc
+    - les accords qui reviennent le plus, le nb d'accords différents, etc
+    - comparaison des performances à l'eurovision avec le nb d'abonnés sur les réseaux sociaux
+    - petit sujet sur qui pourrait gagner cette année ? cf sites eurovision bookmakers 
+    - visu pour expliquer les règles du concours si nécessaire : quel pays sont qualif directement, les points par pays, ...
+    - faire deviner le profil type du gagnant et si possible agréger les caractéristique progressivement dans la visu : 
+      caractéristiques : sexe, age, groupe?, instruments?, langue d'origine?, 
+    - affinités politiques?
+    - comment l'eurovision est aimé/suivi selon les pays ? Ringard en France mais stylé ailleurs ? 
+	
+	
+  - sources : 
+  -----------
+  
+  	idées : 
+	  	- projets de dataviz sur l'eurovision en pdf :  https://www.emi.coop/project/sept-projets-de-datavisualisation/
+		- https://public.tableau.com/en-us/s/gallery/eurovision-song-contest-voting-patterns
+	
+	données : 
+		- https://data.world/datagraver/eurovision-song-contest-scores
+		- wiki 
+		- paroles : http://www.diggiloo.net/
+		- réseaux sociaux :LykeAlyzer (Facebook), foller.me (Twitter), popularchips.com (Instagram)
