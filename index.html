@@ -295,12 +295,12 @@
 						<iframe align = "center" width="500px" height="400px" frameborder="10" scrolling="no" src="//plot.ly/~eurovision-dataviz-ensae/10.embed?share_key=UdW37yBC3dCHzqxTBoEqla&show_link=false"></iframe>
 					</div>
 					<div class="col col2" style="text-align:justify;">
-						<h3><img style="vertical-align:middle" width="8%" src="images/com.png"> <span style="display:inline-block; width: 25px;"></span> Le Buzz ne paie pas forcément</h3>
+						<h3><img style="vertical-align:middle" width="10%" src="images/com.png"> <span style="display:inline-block; width: 25px;"></span> Le Buzz ne paie pas forcément</h3>
 						<p>
 						<b>La "guerre" ne se gagne pas forcément sur les réseaux sociaux.</b> On peut même dire qu'en général, les vainqueurs de la compétition ne sont pas ceux qui faisaient le plus de buzz sur internet. <br>
 						À ce petit jeu des plus gros pétards mouillés, les français ne sont pas en reste, mais le grand chamion reste l'Espagne : 
 						</p> 
-						<img class="center" src="images/podium.png">
+						<center><img src="images/podium.png"></center>
 						<p> En 2015 par exemple, l'Espagne a généré un engouement énorme sur la toile mais cela ne l'a pas empêchée de finir au fond du classement (24ème).
 						De même pour le Royaume-Uni et la France. </p>
 						<p><b>Bilan : </b>Gardons notre énergie pour réfléchir à un moyen plus direct de gagner.
@@ -460,13 +460,16 @@
 
 		Highcharts.chart('radins', {
 		chart: {
+			style: {
+				fontFamily: 'Scope One,serif'
+			},
 			width : 550,
 			height : 550,
 		type: 'bar',
 		backgroundColor: null
 		},
 		title: {
-		text: 'Réciprocité des dons avec la France depuis 2000'
+		text: 'Réciprocité des votes de la France depuis 2000'
 		},
 		subtitle: {
        		 text: 'Au moins 20 points échangés avec la France'
